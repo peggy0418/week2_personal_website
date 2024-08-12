@@ -123,7 +123,8 @@ section{
 	height: 920px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	column-gap: 24px;
 }
 h1{
 	font-size: 64px;
@@ -133,11 +134,21 @@ section>.left{
 	color: #fff;
 	font-size: 24px;
 	width: 526px;
+	margin-top: 160px;
+}
+section>.left>p{
+	margin-top: 36px;
+	margin-bottom: 32px;
 }
 section .left_img_area{
 	display: flex;
+	height: 98px;
 }
 
 section>.right{
 	display: flex;
+	flex-direction: row;
+	column-gap: 24px;
+	margin: 160px 0;
+	height: 600px;
 }
