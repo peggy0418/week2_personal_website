@@ -121,4 +121,23 @@ section{
 	background-image: url(./img/background-img.png);
 	background-size: cover;
 	height: 920px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	font-size: 64px;
+	color: #fff;
+}
+section>.left{
+	color: #fff;
+	font-size: 24px;
+	width: 526px;
+}
+section .left_img_area{
+	display: flex;
+}
+
+section>.right{
+	display: flex;
 }
