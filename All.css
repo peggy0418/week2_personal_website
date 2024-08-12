@@ -81,6 +81,10 @@ body{
 	display: flex;
 	column-gap: 24px;
 }
+.banner_area>.imgContainer{
+	margin-top: 72px;
+	margin-bottom: 32px;
+}
 .banner_info{
 	font-size: 64px;
 	color: #fff;
@@ -112,4 +116,9 @@ button>a{
 	font-family: "Bruno Ace SC", sans-serif;
 	height: 24px;
 	font-size: 16px;
+}
+section{
+	background-image: url(./img/background-img.png);
+	background-size: cover;
+	height: 920px;
 }
