@@ -296,3 +296,12 @@ a{
 	display: flex;
 	column-gap: 24px;
 }
+footer{
+	background-color: #000;
+	padding: 40px 312px;
+}
+footer>p{
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
